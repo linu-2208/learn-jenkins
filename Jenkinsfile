@@ -12,7 +12,7 @@ pipeline {
                 echo 'Hello, JDK'
             }
         }
-        stage('Test') {
+        stage('Deploy') {
             steps {
                 echo 'Hello, JDK'
             }
